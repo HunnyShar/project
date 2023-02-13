@@ -46,6 +46,11 @@
       <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li>
                           <li><a href="#contacts">Contact</a></li>
+                                                 <div class="container1" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div>
     </div>
   </header>
   <section class="container">
@@ -158,6 +163,11 @@
     <h1>&copy; Copyright 2023 by toofan gang. All Rights Reserved.</h1>
   </div>
 </footer>
+                     <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+          }
+     </script>
 <script>
   $(document).ready(function () {
     // Add smooth scrolling to all links
